@@ -1,0 +1,301 @@
+body{
+  margin: 0;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  text-align: center;
+  font-weight: 100;
+  color: #898989;
+  font-size: .95rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1,h2{
+	display: block;
+	text-align: center;
+}
+
+h2{
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+#title{
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.nav{
+  font-size: 1.3rem;
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  padding-left: 0px;
+}
+
+.nav li{
+  padding: 10px;
+  margin-top: 6px;
+  display: block;
+  background-color: white;
+}
+
+.profile-image{
+  width: 60%;
+  margin: 0 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.main-header{
+	padding-bottom: 10%;
+}
+
+.content{
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.portfolio-title{
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+.portfolio-1,
+.portfolio-2,
+.portfolio-3,
+.portfolio-4,
+.portfolio-5,
+.portfolio-6{
+  width: 100%;
+  padding-top: 10%;
+  display: inline-block;
+}
+
+.content{
+  background-color: white;
+}
+
+.contact{
+	font-weight: 800;
+	padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.main-footer{
+  border-top: 2px solid #e9e9e9;
+  display: block;  
+  margin: 0 5%;
+}
+
+.footer-name{
+	font-size: .90em;
+	font-weight: 800;
+	float: left;
+	padding-top: 1em;
+}
+
+.btn-top{
+  float: right;
+  font-size: .90em;
+	font-weight: 800;
+}
+
+.footer-nav{
+  display: none;
+  float:right;
+}
+
+
+
+@media (min-width: 768px){
+
+	.wrapper{
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .nav li{
+  	padding: 10px;
+  	padding-bottom: 5%;
+    margin-top: 6px;
+    display: inline-block;
+    background-color: #fafafa;
+  }
+
+  .profile-image{
+    display: inline-block;
+    float: right;
+    width: 35%;
+    margin: 0px;
+    padding: 0%;
+    padding-right: 5%;
+  }
+
+  .about{
+    display: inline-block;
+    font-size: 1.25em;
+    width: 50%;
+    float:left;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 3%;
+  }
+
+  .main-header{
+  	vertical-align: center;
+  }
+
+.portfolio-1,
+.portfolio-2,
+.portfolio-3,
+.portfolio-4,
+.portfolio-5,
+.portfolio-6{
+    display: block;
+  	width: 100%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .info{
+  	display: block;
+  	width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+    padding-top: 5%;
+  }
+
+   .footer-nav li{
+  	display: inline-block;
+  	font-size: .90em;
+  	font-weight: 800;
+  	padding-right: 0px;
+  	padding-top: 1em;
+  	padding-left: 20px;
+  	margin-right: 0;
+
+  }
+
+  .footer-name{
+    padding-top: 2em;
+  }
+
+  .contact{
+    width:50%;
+    line-height: 1.5;
+    margin: 10px auto;
+  }
+
+   .footer-nav{
+    display: block;
+  }
+  .mobile-nav{
+    display: none;
+  }
+
+
+
+ 
+
+  .clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+	}
+}
+
+
+
+@media (min-width: 1024px){
+
+  body{
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+
+  .contact{
+    width:50%;
+    line-height: 1.5;
+    margin: 50px auto;
+  }
+
+  #title{
+    display: inline;
+    float: left;
+    font-size: 2rem;
+  }
+
+  .nav li{
+    display: inline;
+    float: right;
+    margin-top: 35px;
+    font-size: 1rem;
+  }
+
+
+
+  .portfolio-1,
+  .portfolio-2,
+  .portfolio-3,
+  .portfolio-4,
+  .portfolio-5,
+  .portfolio-6{
+    display: block;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .info{
+    display: block;
+    width: 27%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+    padding-top: 5%;
+  }
+
+  .contact{
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+
+
+
+}
+	
+
+
+
+
+
+
+
+
+
