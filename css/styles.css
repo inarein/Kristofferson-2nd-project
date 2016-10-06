@@ -134,9 +134,9 @@ h2{
 
   .nav li{
   	padding: 10px;
-  	padding-bottom: 5%;
+  	padding-bottom: 0%;
     margin-top: 6px;
-    display: inline-block;
+    display: inline;
     background-color: #fafafa;
   }
 
@@ -157,11 +157,9 @@ h2{
     margin-top: 0px;
     text-align: left;
     padding-top: 3%;
-  }
+}
 
-  .main-header{
-  	vertical-align: center;
-  }
+
 
 .portfolio-1,
 .portfolio-2,
@@ -244,22 +242,39 @@ h2{
   #title{
     float: left;
     font-size: 2rem;
-     margin-top: 20px;
+    margin-top: 20px;
+    padding-right: 250px;
+
+     
   }
 
   .nav{
     float: right;
-
+    
   }
 
   .nav li{
-    
     margin-top: 20px;
     margin-left: 30px;
     font-size: 1rem;
+
   }
 
+	.profile-image {
+		width: 40%;
+		margin: 0;
+		padding-right: 0;
+		padding-top: 30px;
+		
 
+	
+	}
+
+	.about{
+		width: 55%;
+		padding-left: 0;
+		padding-right: 0;
+	}
 
   .portfolio-1,
   .portfolio-2,
@@ -289,18 +304,4 @@ h2{
     padding-top: 0%;
     padding-bottom: 0%;
   }
-
-
-
-
 }
-	
-
-
-
-
-
-
-
-
-
