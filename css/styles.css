@@ -242,15 +242,20 @@ h2{
   }
 
   #title{
-    display: inline;
     float: left;
     font-size: 2rem;
+     margin-top: 20px;
+  }
+
+  .nav{
+    float: right;
+
   }
 
   .nav li{
-    display: inline;
-    float: right;
-    margin-top: 35px;
+    
+    margin-top: 20px;
+    margin-left: 30px;
     font-size: 1rem;
   }
 
